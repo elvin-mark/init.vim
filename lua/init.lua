@@ -57,6 +57,7 @@ vim.cmd([[autocmd BufWritePre *.c,*.h lua vim.lsp.buf.format()]])
 vim.cmd([[autocmd BufWritePre *.go lua vim.lsp.buf.format()]])
 vim.cmd([[autocmd BufWritePre *.ts lua vim.lsp.buf.format()]])
 vim.cmd([[autocmd BufWritePre *.js lua vim.lsp.buf.format()]])
+vim.cmd([[autocmd BufWritePre *.css lua vim.lsp.buf.format()]])
 
 local cmp = require("cmp")
 
